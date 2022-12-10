@@ -5,8 +5,6 @@ export function ProtectedRoute({ children }) {
   const { storageState } = useAdmission();
   const { local, session } = storageState;
 
-  console.log("storageState: ", storageState);
-
   if (!local && !session) {
     return <Navigate to="/login" />;
   }

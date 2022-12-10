@@ -30,13 +30,11 @@ export function useForm() {
 
   const handleSubmitEmail = (e) => {
     e.preventDefault();
-    console.log("handleSubmitEmail", state.email);
     dispatch({ type: "RESET" });
   };
 
   const handleSubmitWord = (e) => {
     e.preventDefault();
-    console.log("handleSubmitWord", state.word);
     dispatch({ type: "RESET" });
   };
 
