@@ -76,7 +76,7 @@ export function Home() {
     {
       title: "Luxury 3 Bedroom Apartment at Epicentral",
       stars: "4.60 (280)",
-      img: "https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/13846-pikachu-con-pokebola-png.png?fit=500%2C500&ssl=1",
+      img: "",
       price: 350,
       typeHome: "Entire house",
       city: "Florida",
@@ -84,7 +84,7 @@ export function Home() {
     {
       title: "Luxury 3 Bedroom Apartment at Epicentral",
       stars: "4.60 (280)",
-      img: "https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/13846-pikachu-con-pokebola-png.png?fit=500%2C500&ssl=1",
+      img: "",
       price: 350,
       typeHome: "Entire house",
       city: "Florida",
@@ -92,7 +92,7 @@ export function Home() {
     {
       title: "Luxury 3 Bedroom Apartment at Epicentral",
       stars: "4.60 (280)",
-      img: "https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/13846-pikachu-con-pokebola-png.png?fit=500%2C500&ssl=1",
+      img: "",
       price: 350,
       typeHome: "Entire house",
       city: "Florida",
@@ -100,7 +100,7 @@ export function Home() {
     {
       title: "Luxury 3 Bedroom Apartment at Epicentral",
       stars: "4.60 (280)",
-      img: "https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/13846-pikachu-con-pokebola-png.png?fit=500%2C500&ssl=1",
+      img: "",
       price: 350,
       typeHome: "Entire house",
       city: "Florida",
