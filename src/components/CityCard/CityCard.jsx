@@ -1,20 +1,20 @@
 /* eslint-disable react/prop-types */
 export function CityCard({ data }) {
   return (
-    <section className="grid grid-cols-2 grid-rows-2 w-56 h-24 items-center justify-items-center border rounded-2xl">
+    <section className="mobile:grid mobile:grid-cols-2 mobile:grid-rows-2 mobile:w-56 mobile:h-24 mobile:items-center mobile:justify-items-center mobile:border mobile:rounded-2xl desktop:w-[312px] desktop:h-32">
       <img
-        className="col-start-1 row-span-2 w-16 h-16"
+        className="mobile:col-start-1 mobile:row-span-2 mobile:w-16 mobile:h-16 desktop:w-[92px] desktop:h-[92px]"
         src={
           "https://static.wikia.nocookie.net/vsbattles/images/0/04/025Pikachu_XY_anime_4.png/revision/latest?cb=20180310153929"
         }
         alt={data.title}
       />
-      <h6 className="text-xl font-semibold">{data.title}</h6>
-      {/* className="col-start-2 col-span-2 row-start-1" */}
-      <span className="col-start-2 row-start-2 text-xs font-medium">
+      <h6 className="mobile:text-xl mobile:font-semibold desktop:text-3xl desktop:font-bold">
+        {data.title}
+      </h6>
+      <span className="mobile:col-start-2 mobile:row-start-2 mobile:text-xs mobile:font-medium desktop:text-lg">
         {data.text}
       </span>
-      {/* className="col-start-3 row-start-2 text-xs font-medium" */}
     </section>
   );
 }
