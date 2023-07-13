@@ -7,7 +7,7 @@ export function HomeCard({ i, data }) {
           className="mobile:w-full mobile:h-full rounded-xl"
           src={`${
             data.img ||
-            "https://o.remove.bg/downloads/555b3c93-9e60-4c46-a63c-b43a58bc580f/images-removebg-preview.png"
+            "https://www.princehotels.com/wp-content/uploads/2019/04/aboutslider2-1.jpg"
           }`}
           alt={`Image to the ${data.title} version-${i}`}
         />

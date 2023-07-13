@@ -5,7 +5,8 @@ export function CityCard({ data }) {
       <img
         className="mobile:col-start-1 mobile:row-span-2 mobile:w-16 mobile:h-16 desktop:w-[92px] desktop:h-[92px]"
         src={
-          "https://static.wikia.nocookie.net/vsbattles/images/0/04/025Pikachu_XY_anime_4.png/revision/latest?cb=20180310153929"
+          data.img ||
+          "https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.jpg?s=612x612&w=0&k=20&c=9QtwJC2boq3GFHaeDsKytF4-CavYKQuy1jBD2IRfYKc="
         }
         alt={data.title}
       />

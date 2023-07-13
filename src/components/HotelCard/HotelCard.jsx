@@ -7,7 +7,7 @@ export function HotelCard({ data }) {
           className="mobile:w-full h-full mobile:rounded-2xl"
           src={
             data.img ||
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFQQM5ci9CV05nRR8rP9ZypzdzUThIe_IH2g&usqp=CAU"
+            "https://media.istockphoto.com/id/104731717/photo/luxury-resort.jpg?s=612x612&w=0&k=20&c=cODMSPbYyrn1FHake1xYz9M8r15iOfGz9Aosy9Db7mI="
           }
           alt={`Image to the hotel ${data.title}`}
         />
